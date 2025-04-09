@@ -1,0 +1,358 @@
+html {
+    font-size: 16px;
+    scroll-behavior: smooth;
+    --scroll-behavior: smooth;
+    --scroll-behavior: auto;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;             
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    position: fixed; /* Fix the navigation at the top */
+    top: 0; /* Align it to the top of the page */
+    left: 0;
+    width: 100%; /* Make it span the full width of the page */
+    z-index: 1000; /* Ensure it stays above other elements */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 10px;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+nav ul li {
+    margin: 0 1rem;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+nav ul li a.active {
+    text-decoration: underline;
+}
+nav ul li a.active:hover {
+    text-decoration: none;
+}
+nav ul li a.active {
+    color: #ff6347;
+}
+nav ul li a.active:hover {
+    color: #ff6347;
+}
+nav ul li a.active {
+    font-weight: bold;
+}
+nav ul li a.active:hover {
+    font-weight: bold;
+}
+nav ul li a.active {
+    text-decoration: underline;
+}
+nav ul li a.active:hover {
+    text-decoration: none;
+}
+nav ul li a.active {
+    color: #ff6347;
+}
+nav ul li a.active:hover {
+    color: #ff6347;
+}
+nav ul li a.active {
+    font-weight: bold;
+}
+nav ul li a.active:hover {
+    font-weight: bold;
+}
+nav ul li a.active {
+    text-decoration: underline;
+}
+nav ul li a.active:hover {
+    text-decoration: none;
+}
+nav ul li a.active {
+    color: #ff6347;
+}
+nav ul li a.active:hover {
+    color: #ff6347;
+}
+nav ul li a.active {
+    font-weight: bold;
+}
+nav ul li a.active:hover {
+    font-weight: bold;
+}
+nav ul li a.active {
+    text-decoration: underline;
+}
+nav ul li a.active:hover {
+    text-decoration: none;
+}
+nav ul li a.active {
+    color: #ff6347;
+}
+nav ul li a.active:hover {
+    color: #ff6347;
+}
+nav ul li a.active {
+    font-weight: bold;
+}
+nav ul li a.active:hover {
+    font-weight: bold;
+}
+nav ul li a.active {
+    text-decoration: underline;
+}
+nav ul li a.active:hover {
+    text-decoration: none;
+}
+nav ul li a.active {
+    color: #ff6347;
+}
+nav ul li a.active:hover {
+    color: #ff6347;
+}
+nav ul li a.active {
+    font-weight: bold;
+}
+nav ul li a.active:hover {
+    font-weight: bold;
+}
+nav ul li a.active {
+    text-decoration: underline;
+}
+nav ul li a.active:hover {
+    text-decoration: none;
+}
+nav ul li a.active {
+    color: #ff6347;
+}
+nav ul li a.active:hover {
+    color: #ff6347;
+}
+nav ul li a.active {
+    font-weight: bold;
+}
+nav ul li a.active:hover {
+    font-weight: bold;
+}
+nav ul li a.active {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2rem;
+    margin: 2rem 0;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 1200px;
+    margin: 10px auto;
+    padding: 2rem;
+}
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+section p {
+    margin-bottom: 1rem;
+}
+
+#proj {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    margin: 2rem 0;
+    padding: 2rem;
+    background-color: #fff;
+}
+
+article {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33% - 1rem);
+    margin-bottom: 1rem;
+}
+article h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+article p {
+    margin-bottom: 1rem;
+}
+
+#skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#contact form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 600px;
+}
+#contact form input,
+#contact form textarea {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#contact form button {
+    padding: 1rem;
+    background-color: #ff6347;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}   
+
+#contact form button:hover {
+    background-color: #ff4500;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#skills ul li {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 0.5rem;
+    flex: 1 1 calc(33% - 1rem);
+    text-align: center;
+}
+
+footer {
+    margin-top: 2rem;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#menu-toggle {
+    display: none; /* Hide by default */
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    #menu-toggle {
+        display: block; /* Show hamburger menu */
+    }
+
+    #nav-links {
+        display: none; /* Hide links by default */
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 0;
+    }
+
+    #nav-links.show {
+        display: flex; /* Show links when toggled */
+    }
+
+    #nav-links li {
+        text-align: center;
+        margin: 0.5rem 0;
+    }
+}
+
+body {
+    -webkit-font-smoothing: antialiased; /* Smooth font rendering for WebKit browsers */
+    -moz-osx-font-smoothing: grayscale; /* Smooth font rendering for Firefox on macOS */
+}
+
+section {
+    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Vendor prefix for box-shadow */
+    -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);    /* Vendor prefix for box-shadow */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#proj {
+    display: -webkit-box; /* Vendor prefix for flexbox */
+    display: -ms-flexbox; /* Vendor prefix for flexbox */
+    display: flex;
+}
+
+article {
+    -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Vendor prefix for box-shadow */
+    -moz-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);    /* Vendor prefix for box-shadow */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#skills ul li {
+    -webkit-flex: 1 1 calc(33% - 1rem); /* Vendor prefix for flex property */
+    -ms-flex: 1 1 calc(33% - 1rem);     /* Vendor prefix for flex property */
+    flex: 1 1 calc(33% - 1rem);
+}

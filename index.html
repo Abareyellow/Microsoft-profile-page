@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My Profile Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <meta name="description" content="Welcome to my profile page. I am a web developer with a passion for creating beautiful and functional websites.">
+        <meta name="keywords" content="web developer, portfolio, projects, skills, contact">
+        <meta name="author" content="Katie Schwerer">
+    </head>
+    <body>
+        <header role="banner">
+            <nav role="navigation">
+                <button id="menu-toggle" aria-label="Toggle navigation">
+                    &#9776; <!-- Hamburger icon -->
+                </button>
+                <ul id="nav-links">
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="about" role="region" aria-labelledby="about-heading">
+            <h2 id="about-heading">Welcome to My Profile Page</h2>
+            <p>Hello! My name is Katie Schwerer. I'm a web developer with a passion for creating beautiful and functional websites. I have had a passion for web development from a young age and continue to learn more to build better website.</p>
+        </section>
+        <main id="projects" role="main">
+            <h2>My Projects</h2>
+            <div id="proj">
+                <article role="article" aria-labelledby="project1-heading">
+                    <h3 id="project1-heading">Car Dealership</h3>
+                    <p>This web application was a car dealership created with JavaScript and Python.</p>
+                </article>
+                <article role="article" aria-labelledby="project2-heading">
+                    <h3 id="project2-heading">Portfolio Website</h3>
+                    <p>This is my personal portfolio website where I showcase my projects and skills.</p>
+                </article>
+                <article role="article" aria-labelledby="project3-heading">
+                    <h3 id="project3-heading">Weather App</h3>
+                    <p>A simple weather application that fetches data from a weather API and displays it to the user.</p>
+                </article>
+                <article role="article" aria-labelledby="project4-heading">
+                    <h3 id="project4-heading">Blog Platform</h3>
+                    <p>A blogging platform where users can create, edit, and delete their posts.</p>
+                </article>
+                <article role="article" aria-labelledby="project5-heading">
+                    <h3 id="project5-heading">Task Manager</h3>
+                    <p>A task management application that helps users keep track of their tasks and deadlines.</p> 
+                </article>
+            </div>
+        </main>
+        <h2 id="skills-heading">Skills</h2>
+        <main role="region" aria-labelledby="skills-heading" id="skills">
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Flask</li>
+                <li>Git</li>
+                <li>SQL</li>
+                <li>REST APIs</li>
+                <li>Responsive Design</li>
+                <li>Agile Methodologies</li>
+                <li>Problem Solving</li>
+                <li>Team Collaboration</li>
+                <li>Time Management</li>
+                <li>Attention to Detail</li>    
+            </ul>
+        </main>
+        <main id="contact" role="region" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact Me</h2>
+            <form role="form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </main>
+        <footer>
+            <p>&copy; 2023 Katie Schwerer. All rights reserved.</p>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
